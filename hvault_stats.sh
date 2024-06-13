@@ -1,5 +1,5 @@
 bash
-#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/env bash
 
 # Überprüfe, ob curl installiert ist
 if ! command -v curl &> /dev/null; then
